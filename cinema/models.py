@@ -115,7 +115,6 @@ class Ticket(models.Model):
             error_to_raise=ValueError
         )
 
-
     def save(
         self,
         force_insert=False,

@@ -13,3 +13,4 @@ pyflakes==2.5.0
 pytz==2024.2
 sqlparse==0.5.3
 tzdata==2024.2
+python-dotenv==1.0.1

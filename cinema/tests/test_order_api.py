@@ -82,6 +82,7 @@ class OrderApiTests(TestCase):
 
     def test_movie_session_list_tickets_available(self):
         response = self.client.get(f"/api/cinema/movie_sessions/")
+        print(response.data)
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         self.assertEqual(
             response.data[0]["tickets_available"],
